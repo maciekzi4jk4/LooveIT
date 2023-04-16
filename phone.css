@@ -1,0 +1,167 @@
+@media only screen and (max-width: 767px) {
+
+
+
+    *{
+        color: #161616;
+        box-sizing: border-box;
+    }
+
+    h1{
+        font-family: 'Outfit';
+        font-size: 88px;
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 8%;
+    }
+
+    p{
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight: 400px;
+        display: inline-block;
+        line-height: 140%;
+        margin-bottom: 5%;
+    }
+
+    .cookie-notification{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #161616;
+        color: #FFFF;
+        padding-top: 40px;
+        padding-bottom: 60px;
+        padding-left: 8%;
+        z-index: 1000;
+    }
+
+    #cookie{
+        margin-right: 2%;
+        color: #FFFF;
+    }
+    
+    .accept-cookie-btn{
+        font-family: 'Outfit';
+        width: fit-content;
+        font-size: 28px;
+        font-weight: 500;
+        display: inline-block;
+        background-color: #CF142B;
+        color: #FFFF;
+        border: none;
+        border-radius: 7px;
+        padding: 10px 30px;
+    
+    }
+
+
+    .cookie-notification p{
+        margin-bottom: 6%;
+        margin-top: 2%;
+        font-size: 28px;
+    }
+
+
+
+    /* Navigation */
+
+    .men{
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        background-color: #161616;
+
+    }
+
+    .navi ul {
+        display: none;
+    }
+
+
+    nav{
+        background-color: #FFFF;
+        position: sticky;
+        top: 0;
+        border-bottom: #161616 1px solid;
+
+    }
+
+    .navi{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 3% 4%;
+    }
+
+    .navi img{
+        height: 70px;
+    }
+
+    .navi button img {
+        height: 30px;
+    }
+
+    .navi button{
+        border: none;
+        background: none;
+    }
+
+    .navi ul{
+        position: fixed;
+        left: 0;    
+        top: 0;
+        display: none;
+        width: 80%;
+        height: 100%;
+        background-color: #CF142B;
+        color: #FFFF;
+        padding: 10% 20%;
+    }
+
+    .navi ul a{
+        font-family: 'Roboto';
+        font-size: 30px;
+        font-weight: 400px;
+        display: inline-block;
+        line-height: 140%;
+        text-decoration: none;
+        color: #FFFF;
+    }
+
+    /* Hero section  */
+
+    .hero_section{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    
+    .left_hero{
+        padding: 4%;
+    }
+
+    .left_hero a{
+        padding: 5% 8%;
+        background-color: #161616;
+        font-family: 'Outfit';
+        font-size: 30px;
+        font-weight: 600px;
+        display: inline-block;
+        line-height: 140%;
+        text-decoration: none;
+        color: #FFFF;
+    }
+
+
+
+
+
+}

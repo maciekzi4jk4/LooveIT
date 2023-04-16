@@ -1,0 +1,177 @@
+
+.events{
+    position: relative;
+    display: inline;
+}
+
+.events::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: #161616;
+
+    transition: width 0.2s ease-out ;
+}
+
+.events:hover::before{
+    width: 100%;
+    opacity: 80% ;
+}
+
+.events:hover{
+    opacity: 50%;
+}
+
+
+
+.navi .podcasts{
+    transition: background-color 0.1s ease-in-out;
+}
+
+
+.navi .podcasts:hover{
+    background-color: #161616;
+}
+
+
+.socials_footer .fb{
+    position: relative;
+}
+
+.socials_footer .fb::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0;
+    background-color: #CF142B;
+    left: -10px;
+
+    transition: height 0.2s ease-out ;
+}
+
+.socials_footer .fb:hover::before{
+    height: 25px;
+    opacity: 80% ;
+}
+
+.socials_footer .fb:hover{
+    left: 10px;
+}
+
+
+
+.socials_footer .ig{
+    position: relative;
+}
+
+.socials_footer .ig::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0;
+    background-color: #CF142B;
+    left: -10px;
+
+    transition: height 0.2s ease-out ;
+}
+
+.socials_footer .ig:hover::before{
+    height: 25px;
+    opacity: 80% ;
+}
+
+.socials_footer .ig:hover{
+    left: 10px;
+}
+
+
+.socials_footer .yt{
+    position: relative;
+}
+
+.socials_footer .yt::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0;
+    background-color: #CF142B;
+    left: -10px;
+
+    transition: height 0.2s ease-out ;
+}
+
+.socials_footer .yt:hover::before{
+    height: 25px;
+    opacity: 80% ;
+}
+
+.socials_footer .yt:hover{
+    left: 10px;
+}
+
+
+
+
+
+.socials_footer .sp{
+    position: relative;
+}
+
+.socials_footer .sp::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0;
+    background-color: #CF142B;
+    left: -10px;
+
+    transition: height 0.2s ease-out ;
+}
+
+.socials_footer .sp:hover::before{
+    height: 25px;
+    opacity: 80% ;
+}
+
+.socials_footer .sp:hover{
+    left: 10px;
+}
+
+
+
+button:hover{
+    background-color: #ffff;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.about a:hover{
+    background-color: #CF142B;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+
+.hero_section a:hover{
+    background-color: #CF142B;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+
+
+
+
